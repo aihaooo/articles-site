@@ -14,7 +14,11 @@ nav {
 }
 
 header {
-    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(37, 37, 37);
 }
 
 header img {
@@ -70,12 +74,13 @@ main img {
     color: rgb(194, 194, 194);  
 }
 
-.wrapper {
-    margin-bottom: 50px;
-}
-
 mark {
     background-color: rgb(94, 134, 180);
+    font-weight: 500;
+}
+
+h1 {
+    margin-left: 3vh;
     font-weight: 500;
 }
 
